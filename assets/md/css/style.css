@@ -1,0 +1,196 @@
+/* Your custom styles */
+body div.tab-pane{
+	padding: 30px 17px;
+}
+body{	background: linear-gradient(to right, rgba(255,0,0,0.3), rgba(2,0,255,0.3));
+}
+body h1{
+	text-align: center;
+	margin: 30px 0;
+	margin-bottom: 70px;
+	color: rgba(50,50,50,0.5);
+}
+
+
+body div.tab-pane{
+	border-bottom: solid 1px #dee2e6;
+	border-left: solid 1px #dee2e6;
+	border-right: solid 1px #dee2e6;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+span.em{
+	background: rgba(150,200,0,0.2);
+	border-radius: 3px;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: mxedruli;
+	src: url(../../fonts/mkhedruli.ttf);
+}
+
+a.nav-link{
+	font-family: mxedruli;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.upperKa{
+	font-family: mxedruli;
+}
+
+
+div.alert{
+	margin-bottom: 20px;
+}
+
+ul.nav.nav-pills{
+	margin-bottom: 20px;
+}
+ul.nav.nav-pills li{
+	margin-right: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+span.notification{
+	font-size:9px;
+}
+
+h3 span.badge{
+	position: relative;
+    bottom: 5px;
+}
+
+i.record-sound{
+	cursor: pointer;
+}
+
+audio{
+	width: 100%;
+}
+
+canvas#level{
+	width: 100%;
+	height: 80px;
+}
+
+h2.word-name{
+	text-align: center;
+}
+
+#live{
+	position: relative;
+	top: 2px;
+}
+
+i.play-sound{
+	cursor: pointer;
+}
+
+h5.centered{
+	margin: auto;
+}
+
+#statusRec{
+	position: relative;
+	top: -2px;
+	padding-top: 7px;
+}
+i.report-problem, i.edit-word, i.share-it{
+	cursor: pointer;
+}
+
+
+input#auto_timer{
+	width: 30px;
+	border: none;
+	text-align: right;
+}
+
+.w-auto {
+    width: auto;
+}
+
+td.align, th.align {
+	vertical-align: middle;
+	text-align: center;
+}
+
+i.separator:before{
+	content: " ";
+}
+
+i.slash:before{
+	content: " / ";
+}
+
+.cnt{
+	text-align: center;
+}
+span.key{
+	font-size: 40px;
+}
+
+body{
+	/*padding-top: 66px;*/
+	/*padding: 0;*/
+}
+
+.cat-delete{
+	transition: all 0.5s;
+}
+
+div.cat-jar{
+	max-height: 300px;
+	overflow: auto;
+}
+
+
+.user-area-col{
+	overflow-x: auto;
+	padding: 0;
+}
+
+input.hidden, img.hidden{
+	display: none;
+}
+
+
+div.container-fluid{
+	padding-top: 66px;
+}
+
+
+.text-green{
+	color: green;
+}
+
+
+
+
+/* scrolllbar */
+body::-webkit-scrollbar {
+    width: 0.75em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,200,0.1);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #16a0ef;
+  outline: 1px solid #16a0ef;
+}
+
+
+/* end scrollbar */
+
+
+.overflow-auto{
+	overflow: auto;
+}
